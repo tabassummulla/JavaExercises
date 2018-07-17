@@ -19,6 +19,11 @@ public class Person {
 		return "Name:" + this.name + "   " + "Age :" +
 	 this.age + "  " + "Job Title:"+ this.jobTitle;
 	}
+
+	public Object getName(String name) {
+
+		return name;
+	}
 	
 	
 }

@@ -1,6 +1,7 @@
 package people;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class main {
 	
@@ -13,8 +14,8 @@ public class main {
 		
 		Person alice = new Person( "Alice", 25, "Engineer");
 		
-
-		System.out.println(bob.toString());
+		// Overriding the to String method
+		System.out.println(bob);
 		
 		
 		ArrayList<Person> array = new ArrayList<Person>();
@@ -22,19 +23,34 @@ public class main {
 		 array.add(sam);
 		 array.add(alice);
 	
-		
+		// for loop to print out all people to screen 
 		for(int i = 0; i < array.size(); i++) {
 			System.out.println(array.get(i));
 		}
 		
 		
+		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Enter Name");
+		String name = input.nextLine();
 		
-		
-		
+
+	for(int i =0; i < array.size();i++) {
+		if (name.equals(array.get(i).name)){
+			System.out.println(array.get(i).toString());
+		}
 	}
-	
-	
-	
-	
+	}
 }
+
+	
+	
+	
+	
+	
+		
+	
+		
+		
+	
+	
