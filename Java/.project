@@ -18,12 +18,12 @@
 		<link>
 			<name>src/one</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/Archive/one</locationURI>
+			<location>C:/Users/Profile/Desktop/JavaExercises/Java/src/one</location>
 		</link>
 		<link>
 			<name>src/two</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/Archive/two</locationURI>
+			<location>C:/Users/Profile/Desktop/JavaExercises/Java/src/two</location>
 		</link>
 	</linkedResources>
 </projectDescription>
