@@ -7,6 +7,7 @@ public class main {
 	
 		System.out.println(blackjack(18,19));
 		
+		blackjack(18,19);
 		
 	}
 	
